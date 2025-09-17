@@ -248,23 +248,4 @@ if st.session_state.chatbot:
                 if i < len(st.session_state.chat_history) - 1:
                     st.markdown("---")
     
-    # Quick question suggestions
-    # if not st.session_state.chat_history:
-    #     st.markdown("### 💡 Quick Question Suggestions:")
-        
-    #     suggestions = [
-    #         "What are the main topics discussed in this video?",
-    #         "Can you summarize the key points?",
-    #         "What are the benefits mentioned in the video?",
-    #         "Are there any important tips or advice?",
-    #         "What conclusions does the speaker draw?"
-    #     ]
-        
-    #     cols = st.columns(2)
-    #     for i, suggestion in enumerate(suggestions):
-    #         with cols[i % 2]:
-    #             if st.button(suggestion, key=f"suggestion_{i}"):
-    #                 # Schedule prefill on next run (avoid modifying widget key post-instantiation)
-    #                 st.session_state.prefill_input = suggestion
-    #                 st.rerun()
-
+    
