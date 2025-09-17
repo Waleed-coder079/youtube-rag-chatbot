@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.log
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints
+
+# ---- n8n ----
+.n8n/
+.local/
+
+# ---- VS Code ----
+.vscode/
+.history/
+
+# ---- OS-specific ----
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Node / JS (in case n8n plugins or UI tweaks) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
