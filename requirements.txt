@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-groq
+langchain-huggingface
+langchain-core
+yt-dlp
+requests
+python-dotenv
+faiss-cpu
+sentence-transformers
+torch
+transformers
+langchain-community
